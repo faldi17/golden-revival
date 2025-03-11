@@ -1,13 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Navbar from "./components/Navbar"
-import Home from './pages/Home'
-import TechReligion from './pages/TechReligion'
-import GoldenAge from './pages/GoldenAge'
-import Generation from './pages/Generation'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import TechReligion from "./pages/TechReligion";
+import GoldenAge from "./pages/GoldenAge";
+import Generation from "./pages/Generation";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <div className="container mx-auto px-4 py-8">
         <Routes>

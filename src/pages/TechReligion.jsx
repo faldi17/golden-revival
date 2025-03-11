@@ -97,4 +97,4 @@ function TechReligion() {
   );
 }
 
-export default TechReligion;
+export default TechReligion
